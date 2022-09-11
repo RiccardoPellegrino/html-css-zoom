@@ -82,7 +82,7 @@ header button {
 
 /* footer */
 footer {
-    min-width: 870px;
+    min-width: 980px;
     display: flex;
     justify-content: space-between;
     width: 100%;
