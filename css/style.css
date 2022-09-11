@@ -68,7 +68,9 @@ header {
 .cursor {
     cursor: pointer;
 }
-
+header button:hover{
+    background-color: #486182;
+}
 header button {
     background-color: var(--grigio);
     text-decoration: none;
@@ -90,7 +92,9 @@ footer {
     font-size: 25px;
     overflow: auto;
 }
-
+footer li:hover{
+    color: var(--grigio);
+}
 footer li span {
     font-size: 12px;
     margin: 2px;
@@ -101,6 +105,9 @@ li{
 .distanza{
     margin: 10px;
     text-align: center;
+}
+.ending:hover{
+    background-color: #984343;
 }
 .ending{
     background-color: var(--rosso);
@@ -148,7 +155,4 @@ main {
     background-color: #4a4a4a8e;
     color: var(--bianco);
     border-radius: 3px;
-}
-i:hover{
-    color: #4a4a4a;
 }
