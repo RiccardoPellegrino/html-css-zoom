@@ -1,6 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+:root {
+    --sfondo-nero: #171717;
+    --bianco: #ffffff;
+    --grigio-scuro: #222222;
+    --verde: #4bc800;
+    --rosso: #ff0000;
+    --nero: #000000;
+    --grigio: #4a4a4a;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: var(--bianco);
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--nero);
+}
+/* tipi di flex */
+.flex-end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+}
+/* header */
+header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--nero);
+    padding: 5px;
+}
+
+header button {
+    background-color: var(--grigio);
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 10px;
+    color: var(--bianco);
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: var(--grigio-scuro);
+    padding: 5px;
+}
+
+/* main */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: calc(100% - 150px);
+    overflow-y: auto;
+}
+.img-user img{
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.user-card{
+    width: calc(100% / 7);
+    padding: 5px;
+   
 }
